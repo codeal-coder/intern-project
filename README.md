@@ -11,8 +11,8 @@ It includes:
 -  Backend Hosted on GitHub
 
 ---run Command-
-    backend - npm run dev/npm start
-    backend - npm run dev
+    -backend - npm run dev/npm start
+    -frontend - npm run dev
 
 --.env file
 PORT=5000
