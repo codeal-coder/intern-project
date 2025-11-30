@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import AuthContext from "../context/AuthContext";
 import React from "react";
+import withAuth from "./Auth";
 
 const Dashboard = () => {
   const {
@@ -264,4 +265,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default withAuth(Dashboard);
